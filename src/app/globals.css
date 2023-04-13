@@ -24,6 +24,10 @@ body{
   color: var(--primmaryColor);
 
 }
+.primmary{
+  color:var(--primmaryColor);
+  font-size: 1.2em;
+}
 
 /* ---------------------------------------------------------------- */
 
@@ -187,7 +191,7 @@ body{
 }
 .inc-btn,.dec-btn{
   background-color: white !important;
-  border: 1px solid var(--primmaryColor) !important;
+  border: 1px solid rgb(27, 26, 26) !important;
 }
 
 .form-con{
@@ -196,7 +200,7 @@ min-width: 270px !important;
 width: 50%;
 margin: 6rem auto;
 /* background-color: orchid; */
-height: 60vh !important;
+/* height: 68vh !important; */
 border-radius: 15px;
 box-shadow: rgba(55, 55, 56, 0.2) 0px 7px 29px 0px !important;
 background-color: transparent;
