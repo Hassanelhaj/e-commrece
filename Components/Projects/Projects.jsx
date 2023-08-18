@@ -1,7 +1,7 @@
 import React from 'react'
 import SubTitle from '../SubTitle'
 
-import WebProjects from './webProjects'
+import WebProjects from './WebProjects'
 
 
 const Projects = () => {
