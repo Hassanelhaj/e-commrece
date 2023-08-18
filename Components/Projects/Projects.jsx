@@ -10,7 +10,7 @@ const Projects = () => {
     items-center gap-4' id='projects'>
       <SubTitle title={"projects"}/>
       <div>
-        {/* <UxProjects/> */}
+  
         <WebProjects/>
       </div>
     
