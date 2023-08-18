@@ -1,15 +1,10 @@
-
-  /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300;1,400;1,700&display=swap'); */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* html{
- @apply font
-} */
+
 body{
-  @apply bg-gradient-to-br from-slate-50 to-gray-100 dark:bg-slate-800
-  /* background-color: (var(--callout-rgb), 0.5); */
+  @apply bg-gradient-to-br from-slate-50 to-gray-100 dark:bg-slate-800 duration-100
+
   
 }
 
