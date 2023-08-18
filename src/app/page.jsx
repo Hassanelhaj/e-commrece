@@ -1,39 +1,39 @@
-"use client"
+"use client";
 
-import { useState } from "react";
-import CardInfo from "../../Components/CardInfo";
-import { useEffect } from "react";
-import Slider from "../../Components/Slider";
+import React, { useEffect, useState } from "react";
+import Hero from "../../Components/Hero";
+import Skills from "../../Components/Skills";
+import Services from "../../Components/Services/Services";
+import Projects from "../../Components/Projects/Projects";
+import Footer from "../../Components/footer/Footer";
+import NavBar from "../../Components/utils/NavBar";
 
-export default  function  Home() {
-  const[state,setState]= useState([]);
-  const  fetchData = async ()=>{
-    const data = await fetch('https://fakestoreapi.com/products');
-    const res = await data.json();
-    setState(res);
-    // console.log(state);
-  }
-  // useEffect(
-  // fetchData,[])
-  fetchData();
-
-
-  // console.log(' this is '+ typeof state);
+const Home = () => {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  });
+  if (!mounted) return null;
 
   return (
-    <div>
-<Slider/>
-  <main className='products-wrapper'>
+    <main className="">
+    <div
+      className="  overflow-hidden
+      flex flex-col justify-center items-center flex-wrap gap-4
+    dark:text-gray-100 dark:bg-slate-800 duration-100"
+    >
+      <NavBar />
+      <Hero />
 
- {/* <h1>home page </h1> */}
- {
- state.map((product)=>{
-return(<CardInfo key={product.id} data ={product}/>)
- })
- }
- 
-
-    </main>
+      <Skills />
+      <Services />
+      <Projects />
+      <div id="contact">
+        <Footer />
+      </div>
     </div>
-  )
-}
+    </main>
+  );
+};
+
+export default Home;
