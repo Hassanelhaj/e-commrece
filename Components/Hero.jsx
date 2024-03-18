@@ -6,7 +6,7 @@ import Writer from "./Writer";
 const Hero = () => {
   return (
     <div
-      className="container mx-auto h-full pt-16 sm:pt-20 md:mb-10 md:px-4 "
+      className="container mx-auto h-full  sm:pt-20 md:mb-10 md:px-4 "
       id="home"
     >
       <div
@@ -31,8 +31,7 @@ const Hero = () => {
           </div>
           <p className="capitalize text-center">
             {" "}
-            Creative Programmer and Designer skilled in making Amizing Ui with
-            Clean structure
+            I am a versatile content writer and graphic designer with a passion for creating engaging and visually appealing content. With a keen eye for detail and a strong understanding of design principles and Programming, I strive to deliver high-quality work that exceeds client expectations. I have worked as a uiux Designer, social media graphics and Frontend Developer. I am constantly seeking new challenges and opportunities to expand my skills and knowledge in the ever-evolving world of digital marketing.
           </p>
           <div className="flex flex-col sm:flex-row justify-between items-center gap-3 mt-2 ">
             <a

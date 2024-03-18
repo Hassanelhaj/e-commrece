@@ -1,14 +1,14 @@
+import { TfiWrite } from "react-icons/tfi";
+import Image from "next/image";
+import serviceDesign from "./public/imgs/services/mediaDesign.svg";
 import { GiEarthAmerica } from "react-icons/gi";
 import { AiOutlineAppstoreAdd } from "react-icons/ai";
-import mainMarkit from "./public/imgs/projects/markit/markit.jpg";
-import MainSiddeg from "./public/imgs/projects/portfolio/MainSiddeg.jpg";
-import MainFood from "./public/imgs/projects/mern/foodify/foodify.jpg";
-import MainShopify from "./public/imgs/projects/mern/ecommerce/shopify.jpg";
-import MainTnseeq from "./public/imgs/projects/tnsseq/tn1.jpg";
-import mainHala from './public/imgs/projects/halaGallary/mainHala.jpg';
-import mainTewnz from './public/imgs/projects/tewinz/twenz1.jpg';
 
-import jobify from './public/imgs/projects/jobify/mainJobify.jpg';
+import travo from "./public/imgs/projects/uiux/travo.png";
+import natour from "./public/imgs/projects/uiux/natour.png";
+import decor from "./public/imgs/projects/uiux/decor.png";
+import cvCreator from "./public/imgs/projects/uiux/cv-creator.png";
+
 
 
 export const servicesList = [
@@ -25,54 +25,44 @@ export const servicesList = [
       "Profishial And Modern UiUx Design Using Figma with Your Own Custmization",
     logo: <AiOutlineAppstoreAdd />,
   },
-];
-export const projects = [
-  {
-    id: 1,
-    title: "e-commerce web App",
-    description: "Tiny e-commrce website",
-    img: mainMarkit,
-  },
-  {
-    id: 2,
-    title: "portfolio",
-    description: "personal porfolio",
-    img: MainSiddeg,
-  },
   {
     id: 3,
-    title: "shopify",
-    description: "full featured e-commerce",
-    img: MainShopify,
+    title: "Social Media Design ",
+    description:
+      "Profishinal And Modern Social Media Design Using Figma with Your Own Custmization",
+    logo: <Image src={serviceDesign} width={32} />,
   },
   {
     id: 4,
-    title: "foodify",
-    description: "full featured food app",
-    img: MainFood,
+    title: "Content Packages ",
+    description:
+      "Profishinal And Creative Work With Social Media Manegment Services In One Place",
+    logo: <TfiWrite />,
+  },
+];
+export const uiuxProjectsList = [
+  {
+    id: 1,
+    title: "Travo Flight Booking App",
+    description: "Application for Flight Agenicies",
+    img: travo,
   },
   {
-    id: 5,
-    title: "tnsseq",
-    description: " voulnteer website used during war",
-    img: MainTnseeq,
+    id: 2,
+    title: "Nator App",
+    description: "Application for a Furniture Shop",
+    img: natour,
   },
   {
-  id: 6,
-  title: "Hala-Gallary",
-  description: " gallary website for a graphical designer ",
-  img: mainHala,
-},
-{
-  id: 7,
-  title: "Tewinz",
-  description: " landing page website for tweniz  ",
-  img: mainTewnz,
-},
-{
-  id: 8,
-  title: "jobify",
-  description: "website used  for job searching in sudan ",
-  img: jobify,
-},
+    id: 3,
+    title: "Natour App",
+    description: "Application for Properties rent",
+    img: decor,
+  },
+  {
+    id: 4,
+    title: "Cv Creator App",
+    description: "Application for Creating Proficinal cv's",
+    img: cvCreator,
+  },
 ];

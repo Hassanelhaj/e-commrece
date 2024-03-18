@@ -2,6 +2,8 @@ import React from 'react'
 import SubTitle from '../SubTitle'
 
 import WebProjects from './WebProjects'
+import UiuxProjects from './uiux/UiuxProjects'
+import Articles from './articles/Articles'
 
 
 const Projects = () => {
@@ -11,7 +13,9 @@ const Projects = () => {
       <SubTitle title={"projects"}/>
       <div>
   
-        <WebProjects/>
+        {/* <WebProjects/> */}
+        <UiuxProjects/>
+        <Articles/>
       </div>
     
 
