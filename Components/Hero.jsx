@@ -43,7 +43,8 @@ const Hero = () => {
                View My Projects 
             </a>
               {/* 1Xji8UqXSF07-rz3V_E6NVXeRpVsNliRG  */}
-            <a download={"../public/imgs/hassan2.png"} target="_blank" href ='https://drive.google.com/file/d/1Xji8UqXSF07-rz3V_E6NVXeRpVsNliRG/view?usp=drive_link'
+            <a download={"../public/imgs/hassan2.png"} target="_blank" 
+            href ='https://drive.google.com/file/d/1gvlwNt1Ybvkald9C60IwmD1C3MWsSKaF/view?usp=drivesdk'
               className="text-lg font-medium capitalize
         px-3 py-2 text-center bg-slate-800 dark:bg-slate-100 dark:text-slate-800 text-white rounded-lg  sm:w-48 hover:opacity-90"
             >
