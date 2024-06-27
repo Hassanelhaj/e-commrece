@@ -6,6 +6,8 @@ import cow from "./public/imgs/projects/articles/purpleCow.jpg";
 import itly from "./public/imgs/projects/articles/vnecia.jpg";
 import haj from "./public/imgs/projects/articles/haj.jpg";
 import algo from "./public/imgs/projects/articles/algorithms.jpg";
+import habit from "./public/imgs/projects/articles/habit.jpg";
+
 import vitrual from "./public/imgs/projects/articles/virtual.jpg";
 
 export const articles = [
@@ -263,7 +265,7 @@ export const articles = [
   {
     id: 7,
     title: "🔷 بكتب كيف",
-    img: itly,
+    img: habit,
     link: "https://www.facebook.com/100063470444102/posts/pfbid02ufmYUvhSiSUD4PkNm9mLbF4eyfAv8XHi7SmMwFPtYj61mbXzrpTVrFzPB1ETRTSTl/?app=fbl",
     text: `
 
