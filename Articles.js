@@ -266,7 +266,7 @@ export const articles = [
     id: 7,
     title: "🔷 بكتب كيف",
     img: habit,
-    link: "https://www.facebook.com/100063470444102/posts/pfbid02ufmYUvhSiSUD4PkNm9mLbF4eyfAv8XHi7SmMwFPtYj61mbXzrpTVrFzPB1ETRTSTl/?app=fbl",
+    link: "https://www.facebook.com/groups/250458873280846/permalink/949594036700656/?app=fbl",
     text: `
 
   
