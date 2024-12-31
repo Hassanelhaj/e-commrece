@@ -1,41 +1,39 @@
-"use client";
+"use client"
+// components/Navbar.js
+import React, { useState } from 'react';
+import Link from 'next/link';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { Header } from '../../Components/header/Header';
+import Hero from '../../Components/Hero';
+import { HeroSection } from '../../Components/hero/Hero';
+import { AboutSection } from '../../Components/about/About';
+import { ProjectsSection } from '../../Components/Projects/Projects';
+import { Footer } from '../../Components/footer/Footer';
+import { ServicesSection } from '../../Components/Services/Services';
+import { SocialMediaSection } from '../../Components/platforms/Platforms';
+import Reviews from '../../Components/reviews/Reviews';
+import { ContactSection } from '../../Components/contact/ContactSection';
 
-import React, { useEffect, useState } from "react";
-import Hero from "../../Components/Hero";
-import Skills from "../../Components/Skills";
-import Services from "../../Components/Services/Services";
-import Projects from "../../Components/Projects/Projects";
-import Footer from "../../Components/footer/Footer";
-import NavBar from "../../Components/utils/NavBar";
-import SlickCard from "../../Components/utils/SlickCard";
+const page = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-const Home = () => {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => {
-    setMounted(true);
-  });
-  if (!mounted) return null;
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
-    <main className="">
-    <div
-      className="  overflow-hidden
-      flex flex-col justify-center items-center flex-wrap gap-4
-    dark:text-gray-100 dark:bg-slate-800 duration-100"
-    >
-      <NavBar />
-      <Hero />
-
-      <Skills />
-      <Services />
-      
-      <Projects />
-      <div id="contact">
-        <Footer />
-      </div>
-    </div>
+    <main>
+    <Header/>
+    <HeroSection/>
+    <ServicesSection/>
+    <AboutSection/>
+    <ProjectsSection/>
+    <SocialMediaSection/>
+    <Reviews/>
+    <ContactSection/>
+    <Footer/>
     </main>
   );
 };
 
-export default Home;
+export default page;

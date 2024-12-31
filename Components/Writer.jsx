@@ -7,8 +7,8 @@ const Writer = () => {
     
     <div className='App'>
       <h1 
-      className='p-1
-   bg-gradient-to-r from-green-300 via-indigo-600-300 to-blue-300 font-extrabold text-white
+      className='
+   
       
       '
       >
@@ -16,8 +16,8 @@ const Writer = () => {
         <span >
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={['Content Writer','Social Media Specialist', 'Graphic Designer',]}
-            loop={1}
+            words={['Hassan Alhaj','Data Analyst','Social Media Specialist','Hassan Alhaj']}
+            loop={10}
             cursor
             cursorStyle='_'
             typeSpeed={70}

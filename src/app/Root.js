@@ -4,7 +4,7 @@ import React from 'react'
 
 const Root = ({children}) => {
   return (
-    <ThemeProvider attribute='class'>{children}</ThemeProvider>
+    <ThemeProvider attribute='class' defaultTheme='system' >{children}</ThemeProvider>
   )
 }
 
